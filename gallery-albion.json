@@ -1,0 +1,10 @@
+[
+  { "src": "images/albion/albion_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/albion/albion_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/albion/albion_cavalry_3.png", "caption": "Cavalry 3" },
+  { "src": "images/albion/albion_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/albion/albion_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/albion/albion_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/albion/albion_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/albion/albion_misc_1.png", "caption": "Misc 1" }
+]

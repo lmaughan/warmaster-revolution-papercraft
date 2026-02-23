@@ -1,0 +1,9 @@
+[
+  { "src": "images/bretonnia/bretonnia_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/bretonnia/bretonnia_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/bretonnia/bretonnia_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/bretonnia/bretonnia_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/bretonnia/bretonnia_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/bretonnia/bretonnia_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/bretonnia/bretonnia_misc_1.png", "caption": "Misc 1" }
+]

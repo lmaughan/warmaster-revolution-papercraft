@@ -1,0 +1,9 @@
+[
+  { "src": "images/daemons/daemons_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/daemons/daemons_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/daemons/daemons_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/daemons/daemons_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/daemons/daemons_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/daemons/daemons_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/daemons/daemons_misc_1.png", "caption": "Misc 1" }
+]

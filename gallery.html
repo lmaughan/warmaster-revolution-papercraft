@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Gallery – Warmaster Revolution Papercraft</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p class="back-link"><a href="index.html">← All galleries</a></p>
+    <h1 id="gallery-title">Gallery</h1>
+    <p class="tagline" id="gallery-description"></p>
+  </header>
+
+  <main>
+    <div id="gallery" class="gallery"></div>
+    <div id="loading" class="loading">Loading gallery…</div>
+    <div id="error" class="error" hidden></div>
+  </main>
+
+  <footer>
+    <p><a href="index.html">← Back to galleries</a></p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+      <a id="lightbox-fullsize" href="#" target="_blank" rel="noopener" class="lightbox-fullsize">View at full size (1:1)</a>
+    </div>
+  </div>
+
+  <script>
+    window.GALLERY_ID = new URLSearchParams(location.search).get('g') || null;
+  </script>
+  <script src="gallery.js"></script>
+</body>
+</html>

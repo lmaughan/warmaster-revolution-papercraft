@@ -1,0 +1,9 @@
+[
+  { "src": "images/beastmen/beastman_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/beastmen/beastman_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/beastmen/beastman_cavalry_3.png", "caption": "Cavalry 3" },
+  { "src": "images/beastmen/beastman_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/beastmen/beastman_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/beastmen/beastman_misc_1.png", "caption": "Misc 1" },
+  { "src": "images/beastmen/beastman_misc_2.png", "caption": "Misc 2" }
+]

@@ -1,0 +1,9 @@
+[
+  { "src": "images/high_elves/highelf_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/high_elves/highelf_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/high_elves/highelf_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/high_elves/highelf_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/high_elves/highelf_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/high_elves/highelf_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/high_elves/highelf_misc.png", "caption": "Misc" }
+]

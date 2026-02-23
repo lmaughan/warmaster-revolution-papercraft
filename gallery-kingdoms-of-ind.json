@@ -1,0 +1,9 @@
+[
+  { "src": "images/kingdoms_of_ind/ind_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/kingdoms_of_ind/ind_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/kingdoms_of_ind/ind_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/kingdoms_of_ind/ind_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/kingdoms_of_ind/ind_infantry_3.png", "caption": "Infantry 3" },
+  { "src": "images/kingdoms_of_ind/ind_misc_1.png", "caption": "Misc 1" },
+  { "src": "images/kingdoms_of_ind/ind_misc_2.png", "caption": "Misc 2" }
+]

@@ -1,0 +1,9 @@
+[
+  { "src": "images/chaos_dwarfs/chaos_dwarf_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_infantry_3.png", "caption": "Infantry 3" },
+  { "src": "images/chaos_dwarfs/chaos_dwarf_misc_1.png", "caption": "Misc 1" }
+]

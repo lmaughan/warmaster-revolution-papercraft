@@ -1,0 +1,8 @@
+[
+  { "src": "images/dark_elves/darkelf_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/dark_elves/darkelf_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/dark_elves/darkelf_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/dark_elves/darkelf_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/dark_elves/darkelf_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/dark_elves/darkelf_misc.png", "caption": "Misc" }
+]

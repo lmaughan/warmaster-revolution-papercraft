@@ -1,0 +1,11 @@
+[
+  { "src": "images/nippon/nippon_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/nippon/nippon_cavalry_2.png", "caption": "Cavalry 2" },
+  { "src": "images/nippon/nippon_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/nippon/nippon_fliers_2.png", "caption": "Fliers 2" },
+  { "src": "images/nippon/nippon_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/nippon/nippon_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/nippon/nippon_infantry_3.png", "caption": "Infantry 3" },
+  { "src": "images/nippon/nippon_infantry_4.png", "caption": "Infantry 4" },
+  { "src": "images/nippon/nippon_misc_1.png", "caption": "Misc 1" }
+]

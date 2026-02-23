@@ -1,0 +1,8 @@
+[
+  { "src": "images/lizardmen/lizardmen_cavalry_1.png", "caption": "Cavalry 1" },
+  { "src": "images/lizardmen/lizardmen_fliers_1.png", "caption": "Fliers 1" },
+  { "src": "images/lizardmen/lizardmen_infantry_1.png", "caption": "Infantry 1" },
+  { "src": "images/lizardmen/lizardmen_infantry_2.png", "caption": "Infantry 2" },
+  { "src": "images/lizardmen/lizardmen_infantry_3.png", "caption": "Infantry 3" },
+  { "src": "images/lizardmen/lizardmen_misc_1.png", "caption": "Misc 1" }
+]

@@ -1,1 +1,6 @@
-[]
+[
+  { "src": "images/bretonnia/buccaneer.png", "caption": "Buccaneer" },
+  { "src": "images/bretonnia/corsair.png", "caption": "Corsair" },
+  { "src": "images/bretonnia/galleon.png", "caption": "Galleon" },
+  { "src": "images/bretonnia/pegasus.png", "caption": "Pegasus" }
+]

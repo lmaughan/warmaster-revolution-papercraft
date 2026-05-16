@@ -1,1 +1,6 @@
-[]
+[
+  { "src": "images/empire/greatship.png", "caption": "Greatship" },
+  { "src": "images/empire/griffon.png", "caption": "Griffon" },
+  { "src": "images/empire/wargalley.png", "caption": "Wargalley" },
+  { "src": "images/empire/wolfship.png", "caption": "Wolfship" }
+]

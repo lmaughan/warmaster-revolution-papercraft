@@ -1,1 +1,8 @@
-[]
+[
+  { "src": "images/dwarfs/balloon.png", "caption": "Balloon" },
+  { "src": "images/dwarfs/dreadnought.png", "caption": "Dreadnought" },
+  { "src": "images/dwarfs/gyrocopter.png", "caption": "Gyrocopter" },
+  { "src": "images/dwarfs/ironclad.png", "caption": "Ironclad" },
+  { "src": "images/dwarfs/monitor.png", "caption": "Monitor" },
+  { "src": "images/dwarfs/nautilus.png", "caption": "Nautilus" }
+]

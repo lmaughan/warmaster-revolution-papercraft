@@ -1,1 +1,8 @@
-[]
+[
+  { "src": "images/undead/carrion.png", "caption": "Carrion" },
+  { "src": "images/undead/deathship.png", "caption": "Deathship" },
+  { "src": "images/undead/ghostship.png", "caption": "Ghostship" },
+  { "src": "images/undead/necropolis.png", "caption": "Necropolis" },
+  { "src": "images/undead/skullhammer.png", "caption": "Skullhammer" },
+  { "src": "images/undead/zombie_dragon.png", "caption": "Zombie Dragon" }
+]

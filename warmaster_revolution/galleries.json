@@ -1,4 +1,5 @@
 [
+  { "id": "tokens", "title": "Tokens", "description": "Papercraft tokens" },
   { "id": "albion", "title": "Albion", "description": "Papercraft miniatures for Albion" },
   { "id": "araby", "title": "Araby", "description": "Papercraft miniatures for Araby" },
   { "id": "beastmen", "title": "Beastmen", "description": "Papercraft miniatures for Beastmen" },
@@ -24,6 +25,5 @@
   { "id": "tomb-kings", "title": "Tomb Kings", "description": "Papercraft miniatures for Tomb Kings" },
   { "id": "vampire-counts", "title": "Vampire Counts", "description": "Papercraft miniatures for Vampire Counts" },
   { "id": "witch-hunters", "title": "Witch Hunters", "description": "Papercraft miniatures for Witch Hunters" },
-  { "id": "wood-elves", "title": "Wood Elves", "description": "Papercraft miniatures for Wood Elves" },
-  { "id": "tokens", "title": "! Tokens", "description": "Papercraft tokens" }
+  { "id": "wood-elves", "title": "Wood Elves", "description": "Papercraft miniatures for Wood Elves" }
 ]

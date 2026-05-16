@@ -1,1 +1,6 @@
-[]
+[
+  { "src": "images/orcs/orc_bigchukka.png", "caption": "Big Chukka" },
+  { "src": "images/orcs/orc_drillakilla.png", "caption": "Drillakilla" },
+  { "src": "images/orcs/orc_hulk.png", "caption": "Hulk" },
+  { "src": "images/orcs/orc_wyvern.png", "caption": "Wyvern" }
+]

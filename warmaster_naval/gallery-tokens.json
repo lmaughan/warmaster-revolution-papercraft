@@ -1,1 +1,4 @@
-[]
+[
+  { "src": "images/tokens/markers.png", "caption": "Markers" },
+  { "src": "images/tokens/markers2.png", "caption": "Markers 2" }
+]

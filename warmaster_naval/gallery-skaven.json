@@ -1,1 +1,5 @@
-[]
+[
+  { "src": "images/skaven/deathburner.png", "caption": "Deathburner" },
+  { "src": "images/skaven/doombringer.png", "caption": "Doombringer" },
+  { "src": "images/skaven/warpraider.png", "caption": "Warpraider" }
+]

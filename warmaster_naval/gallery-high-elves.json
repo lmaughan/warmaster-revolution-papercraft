@@ -1,1 +1,7 @@
-[]
+[
+  { "src": "images/high-elves/dragonrider.png", "caption": "Dragonrider" },
+  { "src": "images/high-elves/dragonship.png", "caption": "Dragonship" },
+  { "src": "images/high-elves/eagles.png", "caption": "Eagles" },
+  { "src": "images/high-elves/eagleship.png", "caption": "Eagleship" },
+  { "src": "images/high-elves/hawkship.png", "caption": "Hawkship" }
+]

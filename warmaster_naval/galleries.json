@@ -1,4 +1,5 @@
 [
+  { "id": "tokens", "title": "Tokens", "description": "Naval papercraft tokens" },
   { "id": "empire", "title": "Empire", "description": "Naval papercraft miniatures for Empire" },
   { "id": "skaven", "title": "Skaven", "description": "Naval papercraft miniatures for Skaven" },
   { "id": "bretonnia", "title": "Bretonnia", "description": "Naval papercraft miniatures for Bretonnia" },
@@ -6,6 +7,5 @@
   { "id": "dwarfs", "title": "Dwarf", "description": "Naval papercraft miniatures for Dwarf" },
   { "id": "dark-elves", "title": "Dark Elf", "description": "Naval papercraft miniatures for Dark Elf" },
   { "id": "high-elves", "title": "High Elf", "description": "Naval papercraft miniatures for High Elf" },
-  { "id": "undead", "title": "Undead", "description": "Naval papercraft miniatures for Undead" },
-  { "id": "tokens", "title": "! Tokens", "description": "Naval papercraft tokens" }
+  { "id": "undead", "title": "Undead", "description": "Naval papercraft miniatures for Undead" }
 ]

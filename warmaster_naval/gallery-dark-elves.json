@@ -1,1 +1,6 @@
-[]
+[
+  { "src": "images/dark-elves/black_ark.png", "caption": "Black Ark" },
+  { "src": "images/dark-elves/death_fortress.png", "caption": "Death Fortress" },
+  { "src": "images/dark-elves/doomreaver.png", "caption": "Doomreaver" },
+  { "src": "images/dark-elves/manticore_lord.png", "caption": "Manticore Lord" }
+]

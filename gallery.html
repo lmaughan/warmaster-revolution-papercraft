@@ -33,7 +33,11 @@
   </div>
 
   <script>
-    window.GALLERY_ID = new URLSearchParams(location.search).get('g') || null;
+    (function () {
+      var params = new URLSearchParams(location.search);
+      window.GALLERY_COLLECTION = params.get('c') || 'warmaster_revolution';
+      window.GALLERY_ID = params.get('g') || null;
+    })();
   </script>
   <script src="gallery.js"></script>
 </body>

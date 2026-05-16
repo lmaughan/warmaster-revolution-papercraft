@@ -1,0 +1,12 @@
+[
+  {
+    "id": "warmaster_revolution",
+    "title": "Warmaster Revolution",
+    "galleries": "warmaster_revolution/galleries.json"
+  },
+  {
+    "id": "warmaster_naval",
+    "title": "Warmaster Naval Battles",
+    "galleries": "warmaster_naval/galleries.json"
+  }
+]

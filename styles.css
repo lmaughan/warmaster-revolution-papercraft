@@ -96,6 +96,26 @@ main {
 }
 
 /* Gallery list (index) */
+#galleries {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.gallery-collection {
+  margin: 0;
+}
+
+.collection-title {
+  margin: 0 0 1.25rem;
+  font-size: clamp(1.25rem, 3vw, 1.6rem);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  border-bottom: 1px solid var(--surface);
+  padding-bottom: 0.75rem;
+}
+
 .galleries-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

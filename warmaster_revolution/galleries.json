@@ -24,5 +24,6 @@
   { "id": "tomb-kings", "title": "Tomb Kings", "description": "Papercraft miniatures for Tomb Kings" },
   { "id": "vampire-counts", "title": "Vampire Counts", "description": "Papercraft miniatures for Vampire Counts" },
   { "id": "witch-hunters", "title": "Witch Hunters", "description": "Papercraft miniatures for Witch Hunters" },
-  { "id": "wood-elves", "title": "Wood Elves", "description": "Papercraft miniatures for Wood Elves" }
+  { "id": "wood-elves", "title": "Wood Elves", "description": "Papercraft miniatures for Wood Elves" },
+  { "id": "tokens", "title": "! Tokens", "description": "Papercraft tokens" }
 ]

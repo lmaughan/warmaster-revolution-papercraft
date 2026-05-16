@@ -8,10 +8,19 @@
   const lightboxFullsize = document.getElementById('lightbox-fullsize');
   const lightboxClose = document.querySelector('.lightbox-close');
 
+  var params = new URLSearchParams(location.search);
+  var collectionId = window.GALLERY_COLLECTION || params.get('c') || 'warmaster_revolution';
+  var galleryId = window.GALLERY_ID || params.get('g') || null;
+
   function showError(msg) {
     loadingEl.hidden = true;
     errorEl.textContent = msg;
     errorEl.hidden = false;
+  }
+
+  function resolveSrc(src) {
+    if (!src || /^(https?:|\/)/.test(src)) return src;
+    return collectionId + '/' + src;
   }
 
   function openLightbox(src, caption) {
@@ -40,23 +49,46 @@
     if (e.key === 'Escape') closeLightbox();
   });
 
-  var galleryId = window.GALLERY_ID;
-  var jsonUrl = galleryId ? 'gallery-' + galleryId + '.json' : 'gallery.json';
+  var jsonUrl = galleryId
+    ? collectionId + '/gallery-' + galleryId + '.json'
+    : collectionId + '/gallery.json';
 
-  function setGalleryMeta(title, description) {
+  function setGalleryMeta(title, description, collectionTitle) {
     var titleEl = document.getElementById('gallery-title');
     var descEl = document.getElementById('gallery-description');
     var pageTitle = document.getElementById('page-title');
     if (titleEl && title) titleEl.textContent = title;
     if (descEl) descEl.textContent = description || '';
-    if (pageTitle && title) pageTitle.textContent = title + ' – Warmaster Revolution Papercraft';
+    if (pageTitle && title) {
+      var suffix = collectionTitle ? collectionTitle + ' Papercraft' : 'Warmaster Papercraft';
+      pageTitle.textContent = title + ' – ' + suffix;
+    }
   }
 
   var metaPromise = galleryId
-    ? fetch('galleries.json').then(function (r) { return r.ok ? r.json() : []; }).then(function (list) {
-        var g = list.find(function (x) { return (x.id || x.slug) === galleryId; });
-        if (g) setGalleryMeta(g.title, g.description);
-      }).catch(function () {})
+    ? fetch('collections.json')
+        .then(function (r) {
+          return r.ok ? r.json() : [];
+        })
+        .then(function (collections) {
+          var collection = collections.find(function (x) {
+            return x.id === collectionId;
+          });
+          var galleriesUrl = collection ? collection.galleries : collectionId + '/galleries.json';
+          return fetch(galleriesUrl)
+            .then(function (r) {
+              return r.ok ? r.json() : [];
+            })
+            .then(function (list) {
+              var g = list.find(function (x) {
+                return (x.id || x.slug) === galleryId;
+              });
+              if (g) {
+                setGalleryMeta(g.title, g.description, collection ? collection.title : null);
+              }
+            });
+        })
+        .catch(function () {})
     : Promise.resolve();
 
   fetch(jsonUrl)
@@ -73,9 +105,10 @@
       }
       metaPromise.then(function () {});
       items.forEach(function (item) {
-        const src = typeof item === 'string' ? item : (item.src || item.url || item.path);
+        const rawSrc = typeof item === 'string' ? item : (item.src || item.url || item.path);
         const caption = typeof item === 'string' ? '' : (item.caption || item.title || '');
-        if (!src) return;
+        if (!rawSrc) return;
+        const src = resolveSrc(rawSrc);
         const a = document.createElement('a');
         a.href = src;
         a.classList.add('gallery-item');

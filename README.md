@@ -1,6 +1,6 @@
-# Warmaster Revolution Papercraft
+# Warmaster Papercraft
 
-Papercraft miniature galleries for Warmaster Revolution factions.
+Papercraft miniature galleries for Warmaster Revolution and Warmaster Naval Battles.
 
 **https://lmaughan.github.io/warmaster-revolution-papercraft/**
 
@@ -8,8 +8,10 @@ Papercraft miniature galleries for Warmaster Revolution factions.
 
 ## Adding a new gallery
 
-1. Create a subfolder under `images/` with your image files (e.g. `images/my_faction/`).
-2. Create `gallery-<id>.json` listing each image:
+Each collection lives in its own subfolder (`warmaster_revolution/`, `warmaster_naval/`, etc.).
+
+1. Create a subfolder under `<collection>/images/` with your image files (e.g. `warmaster_revolution/images/my_faction/`).
+2. Create `<collection>/gallery-<id>.json` listing each image (paths are relative to the collection folder):
 
 ```json
 [
@@ -18,13 +20,15 @@ Papercraft miniature galleries for Warmaster Revolution factions.
 ]
 ```
 
-3. Add an entry to `galleries.json` with a matching `id`:
+3. Add an entry to `<collection>/galleries.json` with a matching `id`:
 
 ```json
 { "id": "my-faction", "title": "My Faction", "description": "Papercraft miniatures for My Faction" }
 ```
 
 4. Commit and push. GitHub Pages deploys automatically.
+
+To add a new collection, create the subfolder with `galleries.json` and gallery configs, then register it in the root `collections.json`.
 
 ## Testing locally
 
@@ -46,12 +50,13 @@ Then open **http://localhost:8000**.
 
 | Path | Purpose |
 |------|---------|
-| `index.html` | Home page listing all galleries |
-| `gallery.html` | Gallery viewer (`?g=<id>` selects the gallery) |
-| `galleries.json` | Registry of galleries (id, title, description) |
-| `gallery-<id>.json` | Image list for a single gallery |
-| `index.js` | Builds the home page from `galleries.json` |
+| `index.html` | Home page listing all collections and galleries |
+| `gallery.html` | Gallery viewer (`?c=<collection>&g=<id>`) |
+| `collections.json` | Registry of gallery collections |
+| `<collection>/galleries.json` | Galleries in a collection (id, title, description) |
+| `<collection>/gallery-<id>.json` | Image list for a single gallery |
+| `<collection>/images/` | Image files, organised by faction |
+| `index.js` | Builds the home page from `collections.json` |
 | `gallery.js` | Renders the image grid and lightbox |
 | `styles.css` | Shared styles |
-| `images/` | Image files, organised by faction |
 | `.nojekyll` | Disables Jekyll processing on GitHub Pages |

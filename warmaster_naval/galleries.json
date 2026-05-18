@@ -1,11 +1,14 @@
 [
   { "id": "tokens", "title": "Tokens", "description": "Naval papercraft tokens" },
-  { "id": "empire", "title": "Empire", "description": "Naval papercraft miniatures for Empire" },
-  { "id": "skaven", "title": "Skaven", "description": "Naval papercraft miniatures for Skaven" },
+  { "id": "araby", "title": "Araby", "description": "Naval papercraft miniatures for Araby" },
   { "id": "bretonnia", "title": "Bretonnia", "description": "Naval papercraft miniatures for Bretonnia" },
-  { "id": "orcs", "title": "Orc", "description": "Naval papercraft miniatures for Orc" },
-  { "id": "dwarfs", "title": "Dwarf", "description": "Naval papercraft miniatures for Dwarf" },
   { "id": "dark-elves", "title": "Dark Elf", "description": "Naval papercraft miniatures for Dark Elf" },
+  { "id": "dwarfs", "title": "Dwarf", "description": "Naval papercraft miniatures for Dwarf" },
+  { "id": "empire", "title": "Empire", "description": "Naval papercraft miniatures for Empire" },
   { "id": "high-elves", "title": "High Elf", "description": "Naval papercraft miniatures for High Elf" },
+  { "id": "norse", "title": "Norse", "description": "Naval papercraft miniatures for Norse" },
+  { "id": "orcs", "title": "Orc", "description": "Naval papercraft miniatures for Orc" },
+  { "id": "sea-monsters", "title": "Sea Monsters", "description": "Naval papercraft sea monsters" },
+  { "id": "skaven", "title": "Skaven", "description": "Naval papercraft miniatures for Skaven" },
   { "id": "undead", "title": "Undead", "description": "Naval papercraft miniatures for Undead" }
 ]

@@ -1,5 +1,6 @@
 [
   { "src": "images/tokens/markers.png", "caption": "Markers" },
   { "src": "images/tokens/markers2.png", "caption": "Markers 2" },
-  { "src": "images/tokens/markers3.png", "caption": "Markers 3" }
+  { "src": "images/tokens/markers3.png", "caption": "Markers 3" },
+  { "src": "images/tokens/markers4.png", "caption": "Markers 4" }
 ]
